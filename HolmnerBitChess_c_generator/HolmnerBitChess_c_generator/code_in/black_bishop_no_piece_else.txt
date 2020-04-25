@@ -1,0 +1,4 @@
+	else if (board->bitBoards[allWhite_type] & bitSquares[_sq_])
+	{
+		addMoveToList(list, board, movePiece, board->chessBoard[_sq_], fromSquare, _sq_, false, no_piece_type, false, no_square);
+	}

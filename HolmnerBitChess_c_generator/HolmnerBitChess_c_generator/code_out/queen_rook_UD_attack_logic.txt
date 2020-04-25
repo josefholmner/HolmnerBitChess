@@ -1,0 +1,4612 @@
+	switch(square)
+	{ 
+		case A1:
+	if (board->bitBoards[allAttackingType] & bitSquares[A2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[A3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[A3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[A3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[A4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[A4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[A4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[A5])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[A5])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[A5] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[A6])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[A6])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[A6] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[A7])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[A7])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[A7] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[A8])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[A8])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[A8] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case A2:
+	if (board->bitBoards[allAttackingType] & bitSquares[A3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[A4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[A4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[A4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[A5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[A5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[A5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[A6])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[A6])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[A6] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[A7])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[A7])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[A7] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[A8])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[A8])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[A8] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[A1])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A1])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A1] == no_piece)
+	{
+		}
+			break;
+		case A3:
+	if (board->bitBoards[allAttackingType] & bitSquares[A4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[A5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[A5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[A5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[A6])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[A6])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[A6] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[A7])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[A7])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[A7] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[A8])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[A8])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[A8] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[A2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[A1])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[A1])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[A1] == no_piece)
+		{
+			}
+		}
+			break;
+		case A4:
+	if (board->bitBoards[allAttackingType] & bitSquares[A5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[A6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[A6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[A6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[A7])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[A7])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[A7] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[A8])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[A8])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[A8] == no_piece)
+				{
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[A3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[A2])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[A2])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[A2] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[A1])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[A1])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[A1] == no_piece)
+			{
+				}
+			}
+		}
+			break;
+		case A5:
+	if (board->bitBoards[allAttackingType] & bitSquares[A6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[A7])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[A7])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[A7] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[A8])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[A8])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[A8] == no_piece)
+			{
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[A4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[A3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[A3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[A3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[A2])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[A2])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[A2] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[A1])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[A1])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[A1] == no_piece)
+				{
+					}
+				}
+			}
+		}
+			break;
+		case A6:
+	if (board->bitBoards[allAttackingType] & bitSquares[A7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[A8])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[A8])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[A8] == no_piece)
+		{
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[A5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[A4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[A4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[A4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[A3])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[A3])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[A3] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[A2])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[A2])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[A2] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[A1])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[A1])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[A1] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+			break;
+		case A7:
+	if (board->bitBoards[allAttackingType] & bitSquares[A8])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A8])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A8] == no_piece)
+	{
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[A6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[A5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[A5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[A5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[A4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[A4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[A4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[A3])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[A3])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[A3] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[A2])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[A2])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[A2] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[A1])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[A1])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[A1] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case A8:
+	if (board->bitBoards[allAttackingType] & bitSquares[A7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[A7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[A7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[A6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[A6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[A6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[A5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[A5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[A5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[A4])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[A4])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[A4] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[A3])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[A3])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[A3] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[A2])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[A2])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[A2] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[A1])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[A1])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[A1] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case B1:
+	if (board->bitBoards[allAttackingType] & bitSquares[B2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[B3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[B3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[B3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[B4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[B4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[B4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[B5])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[B5])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[B5] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[B6])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[B6])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[B6] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[B7])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[B7])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[B7] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[B8])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[B8])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[B8] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case B2:
+	if (board->bitBoards[allAttackingType] & bitSquares[B3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[B4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[B4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[B4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[B5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[B5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[B5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[B6])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[B6])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[B6] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[B7])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[B7])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[B7] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[B8])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[B8])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[B8] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[B1])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B1])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B1] == no_piece)
+	{
+		}
+			break;
+		case B3:
+	if (board->bitBoards[allAttackingType] & bitSquares[B4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[B5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[B5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[B5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[B6])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[B6])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[B6] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[B7])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[B7])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[B7] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[B8])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[B8])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[B8] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[B2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[B1])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[B1])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[B1] == no_piece)
+		{
+			}
+		}
+			break;
+		case B4:
+	if (board->bitBoards[allAttackingType] & bitSquares[B5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[B6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[B6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[B6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[B7])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[B7])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[B7] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[B8])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[B8])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[B8] == no_piece)
+				{
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[B3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[B2])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[B2])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[B2] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[B1])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[B1])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[B1] == no_piece)
+			{
+				}
+			}
+		}
+			break;
+		case B5:
+	if (board->bitBoards[allAttackingType] & bitSquares[B6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[B7])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[B7])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[B7] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[B8])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[B8])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[B8] == no_piece)
+			{
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[B4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[B3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[B3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[B3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[B2])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[B2])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[B2] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[B1])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[B1])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[B1] == no_piece)
+				{
+					}
+				}
+			}
+		}
+			break;
+		case B6:
+	if (board->bitBoards[allAttackingType] & bitSquares[B7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[B8])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[B8])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[B8] == no_piece)
+		{
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[B5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[B4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[B4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[B4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[B3])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[B3])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[B3] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[B2])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[B2])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[B2] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[B1])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[B1])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[B1] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+			break;
+		case B7:
+	if (board->bitBoards[allAttackingType] & bitSquares[B8])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B8])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B8] == no_piece)
+	{
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[B6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[B5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[B5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[B5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[B4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[B4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[B4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[B3])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[B3])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[B3] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[B2])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[B2])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[B2] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[B1])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[B1])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[B1] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case B8:
+	if (board->bitBoards[allAttackingType] & bitSquares[B7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[B7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[B7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[B6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[B6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[B6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[B5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[B5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[B5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[B4])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[B4])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[B4] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[B3])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[B3])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[B3] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[B2])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[B2])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[B2] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[B1])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[B1])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[B1] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case C1:
+	if (board->bitBoards[allAttackingType] & bitSquares[C2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[C3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[C3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[C3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[C4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[C4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[C4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[C5])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[C5])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[C5] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[C6])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[C6])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[C6] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[C7])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[C7])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[C7] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[C8])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[C8])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[C8] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case C2:
+	if (board->bitBoards[allAttackingType] & bitSquares[C3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[C4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[C4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[C4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[C5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[C5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[C5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[C6])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[C6])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[C6] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[C7])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[C7])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[C7] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[C8])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[C8])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[C8] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[C1])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C1])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C1] == no_piece)
+	{
+		}
+			break;
+		case C3:
+	if (board->bitBoards[allAttackingType] & bitSquares[C4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[C5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[C5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[C5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[C6])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[C6])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[C6] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[C7])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[C7])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[C7] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[C8])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[C8])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[C8] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[C2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[C1])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[C1])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[C1] == no_piece)
+		{
+			}
+		}
+			break;
+		case C4:
+	if (board->bitBoards[allAttackingType] & bitSquares[C5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[C6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[C6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[C6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[C7])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[C7])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[C7] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[C8])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[C8])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[C8] == no_piece)
+				{
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[C3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[C2])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[C2])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[C2] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[C1])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[C1])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[C1] == no_piece)
+			{
+				}
+			}
+		}
+			break;
+		case C5:
+	if (board->bitBoards[allAttackingType] & bitSquares[C6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[C7])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[C7])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[C7] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[C8])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[C8])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[C8] == no_piece)
+			{
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[C4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[C3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[C3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[C3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[C2])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[C2])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[C2] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[C1])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[C1])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[C1] == no_piece)
+				{
+					}
+				}
+			}
+		}
+			break;
+		case C6:
+	if (board->bitBoards[allAttackingType] & bitSquares[C7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[C8])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[C8])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[C8] == no_piece)
+		{
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[C5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[C4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[C4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[C4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[C3])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[C3])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[C3] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[C2])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[C2])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[C2] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[C1])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[C1])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[C1] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+			break;
+		case C7:
+	if (board->bitBoards[allAttackingType] & bitSquares[C8])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C8])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C8] == no_piece)
+	{
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[C6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[C5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[C5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[C5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[C4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[C4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[C4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[C3])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[C3])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[C3] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[C2])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[C2])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[C2] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[C1])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[C1])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[C1] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case C8:
+	if (board->bitBoards[allAttackingType] & bitSquares[C7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[C7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[C7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[C6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[C6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[C6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[C5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[C5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[C5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[C4])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[C4])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[C4] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[C3])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[C3])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[C3] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[C2])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[C2])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[C2] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[C1])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[C1])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[C1] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case D1:
+	if (board->bitBoards[allAttackingType] & bitSquares[D2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[D3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[D3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[D3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[D4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[D4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[D4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[D5])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[D5])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[D5] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[D6])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[D6])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[D6] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[D7])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[D7])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[D7] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[D8])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[D8])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[D8] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case D2:
+	if (board->bitBoards[allAttackingType] & bitSquares[D3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[D4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[D4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[D4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[D5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[D5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[D5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[D6])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[D6])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[D6] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[D7])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[D7])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[D7] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[D8])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[D8])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[D8] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[D1])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D1])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D1] == no_piece)
+	{
+		}
+			break;
+		case D3:
+	if (board->bitBoards[allAttackingType] & bitSquares[D4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[D5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[D5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[D5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[D6])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[D6])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[D6] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[D7])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[D7])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[D7] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[D8])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[D8])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[D8] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[D2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[D1])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[D1])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[D1] == no_piece)
+		{
+			}
+		}
+			break;
+		case D4:
+	if (board->bitBoards[allAttackingType] & bitSquares[D5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[D6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[D6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[D6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[D7])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[D7])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[D7] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[D8])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[D8])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[D8] == no_piece)
+				{
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[D3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[D2])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[D2])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[D2] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[D1])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[D1])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[D1] == no_piece)
+			{
+				}
+			}
+		}
+			break;
+		case D5:
+	if (board->bitBoards[allAttackingType] & bitSquares[D6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[D7])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[D7])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[D7] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[D8])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[D8])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[D8] == no_piece)
+			{
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[D4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[D3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[D3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[D3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[D2])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[D2])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[D2] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[D1])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[D1])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[D1] == no_piece)
+				{
+					}
+				}
+			}
+		}
+			break;
+		case D6:
+	if (board->bitBoards[allAttackingType] & bitSquares[D7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[D8])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[D8])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[D8] == no_piece)
+		{
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[D5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[D4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[D4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[D4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[D3])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[D3])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[D3] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[D2])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[D2])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[D2] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[D1])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[D1])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[D1] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+			break;
+		case D7:
+	if (board->bitBoards[allAttackingType] & bitSquares[D8])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D8])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D8] == no_piece)
+	{
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[D6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[D5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[D5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[D5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[D4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[D4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[D4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[D3])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[D3])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[D3] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[D2])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[D2])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[D2] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[D1])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[D1])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[D1] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case D8:
+	if (board->bitBoards[allAttackingType] & bitSquares[D7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[D7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[D7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[D6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[D6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[D6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[D5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[D5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[D5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[D4])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[D4])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[D4] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[D3])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[D3])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[D3] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[D2])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[D2])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[D2] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[D1])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[D1])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[D1] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case E1:
+	if (board->bitBoards[allAttackingType] & bitSquares[E2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[E3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[E3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[E3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[E4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[E4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[E4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[E5])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[E5])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[E5] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[E6])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[E6])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[E6] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[E7])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[E7])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[E7] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[E8])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[E8])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[E8] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case E2:
+	if (board->bitBoards[allAttackingType] & bitSquares[E3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[E4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[E4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[E4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[E5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[E5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[E5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[E6])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[E6])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[E6] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[E7])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[E7])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[E7] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[E8])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[E8])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[E8] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[E1])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E1])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E1] == no_piece)
+	{
+		}
+			break;
+		case E3:
+	if (board->bitBoards[allAttackingType] & bitSquares[E4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[E5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[E5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[E5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[E6])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[E6])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[E6] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[E7])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[E7])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[E7] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[E8])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[E8])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[E8] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[E2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[E1])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[E1])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[E1] == no_piece)
+		{
+			}
+		}
+			break;
+		case E4:
+	if (board->bitBoards[allAttackingType] & bitSquares[E5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[E6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[E6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[E6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[E7])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[E7])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[E7] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[E8])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[E8])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[E8] == no_piece)
+				{
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[E3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[E2])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[E2])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[E2] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[E1])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[E1])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[E1] == no_piece)
+			{
+				}
+			}
+		}
+			break;
+		case E5:
+	if (board->bitBoards[allAttackingType] & bitSquares[E6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[E7])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[E7])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[E7] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[E8])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[E8])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[E8] == no_piece)
+			{
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[E4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[E3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[E3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[E3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[E2])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[E2])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[E2] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[E1])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[E1])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[E1] == no_piece)
+				{
+					}
+				}
+			}
+		}
+			break;
+		case E6:
+	if (board->bitBoards[allAttackingType] & bitSquares[E7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[E8])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[E8])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[E8] == no_piece)
+		{
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[E5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[E4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[E4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[E4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[E3])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[E3])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[E3] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[E2])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[E2])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[E2] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[E1])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[E1])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[E1] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+			break;
+		case E7:
+	if (board->bitBoards[allAttackingType] & bitSquares[E8])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E8])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E8] == no_piece)
+	{
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[E6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[E5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[E5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[E5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[E4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[E4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[E4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[E3])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[E3])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[E3] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[E2])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[E2])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[E2] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[E1])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[E1])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[E1] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case E8:
+	if (board->bitBoards[allAttackingType] & bitSquares[E7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[E7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[E7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[E6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[E6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[E6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[E5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[E5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[E5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[E4])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[E4])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[E4] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[E3])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[E3])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[E3] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[E2])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[E2])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[E2] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[E1])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[E1])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[E1] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case F1:
+	if (board->bitBoards[allAttackingType] & bitSquares[F2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[F3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[F3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[F3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[F4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[F4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[F4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[F5])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[F5])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[F5] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[F6])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[F6])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[F6] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[F7])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[F7])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[F7] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[F8])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[F8])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[F8] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case F2:
+	if (board->bitBoards[allAttackingType] & bitSquares[F3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[F4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[F4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[F4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[F5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[F5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[F5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[F6])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[F6])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[F6] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[F7])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[F7])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[F7] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[F8])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[F8])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[F8] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[F1])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F1])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F1] == no_piece)
+	{
+		}
+			break;
+		case F3:
+	if (board->bitBoards[allAttackingType] & bitSquares[F4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[F5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[F5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[F5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[F6])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[F6])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[F6] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[F7])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[F7])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[F7] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[F8])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[F8])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[F8] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[F2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[F1])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[F1])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[F1] == no_piece)
+		{
+			}
+		}
+			break;
+		case F4:
+	if (board->bitBoards[allAttackingType] & bitSquares[F5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[F6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[F6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[F6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[F7])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[F7])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[F7] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[F8])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[F8])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[F8] == no_piece)
+				{
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[F3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[F2])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[F2])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[F2] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[F1])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[F1])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[F1] == no_piece)
+			{
+				}
+			}
+		}
+			break;
+		case F5:
+	if (board->bitBoards[allAttackingType] & bitSquares[F6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[F7])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[F7])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[F7] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[F8])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[F8])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[F8] == no_piece)
+			{
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[F4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[F3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[F3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[F3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[F2])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[F2])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[F2] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[F1])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[F1])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[F1] == no_piece)
+				{
+					}
+				}
+			}
+		}
+			break;
+		case F6:
+	if (board->bitBoards[allAttackingType] & bitSquares[F7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[F8])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[F8])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[F8] == no_piece)
+		{
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[F5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[F4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[F4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[F4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[F3])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[F3])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[F3] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[F2])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[F2])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[F2] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[F1])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[F1])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[F1] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+			break;
+		case F7:
+	if (board->bitBoards[allAttackingType] & bitSquares[F8])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F8])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F8] == no_piece)
+	{
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[F6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[F5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[F5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[F5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[F4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[F4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[F4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[F3])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[F3])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[F3] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[F2])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[F2])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[F2] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[F1])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[F1])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[F1] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case F8:
+	if (board->bitBoards[allAttackingType] & bitSquares[F7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[F7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[F7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[F6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[F6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[F6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[F5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[F5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[F5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[F4])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[F4])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[F4] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[F3])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[F3])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[F3] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[F2])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[F2])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[F2] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[F1])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[F1])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[F1] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case G1:
+	if (board->bitBoards[allAttackingType] & bitSquares[G2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[G3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[G3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[G3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[G4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[G4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[G4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[G5])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[G5])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[G5] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[G6])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[G6])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[G6] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[G7])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[G7])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[G7] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[G8])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[G8])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[G8] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case G2:
+	if (board->bitBoards[allAttackingType] & bitSquares[G3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[G4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[G4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[G4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[G5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[G5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[G5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[G6])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[G6])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[G6] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[G7])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[G7])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[G7] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[G8])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[G8])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[G8] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[G1])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G1])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G1] == no_piece)
+	{
+		}
+			break;
+		case G3:
+	if (board->bitBoards[allAttackingType] & bitSquares[G4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[G5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[G5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[G5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[G6])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[G6])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[G6] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[G7])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[G7])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[G7] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[G8])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[G8])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[G8] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[G2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[G1])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[G1])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[G1] == no_piece)
+		{
+			}
+		}
+			break;
+		case G4:
+	if (board->bitBoards[allAttackingType] & bitSquares[G5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[G6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[G6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[G6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[G7])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[G7])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[G7] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[G8])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[G8])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[G8] == no_piece)
+				{
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[G3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[G2])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[G2])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[G2] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[G1])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[G1])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[G1] == no_piece)
+			{
+				}
+			}
+		}
+			break;
+		case G5:
+	if (board->bitBoards[allAttackingType] & bitSquares[G6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[G7])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[G7])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[G7] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[G8])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[G8])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[G8] == no_piece)
+			{
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[G4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[G3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[G3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[G3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[G2])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[G2])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[G2] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[G1])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[G1])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[G1] == no_piece)
+				{
+					}
+				}
+			}
+		}
+			break;
+		case G6:
+	if (board->bitBoards[allAttackingType] & bitSquares[G7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[G8])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[G8])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[G8] == no_piece)
+		{
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[G5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[G4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[G4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[G4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[G3])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[G3])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[G3] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[G2])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[G2])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[G2] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[G1])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[G1])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[G1] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+			break;
+		case G7:
+	if (board->bitBoards[allAttackingType] & bitSquares[G8])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G8])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G8] == no_piece)
+	{
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[G6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[G5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[G5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[G5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[G4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[G4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[G4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[G3])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[G3])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[G3] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[G2])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[G2])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[G2] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[G1])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[G1])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[G1] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case G8:
+	if (board->bitBoards[allAttackingType] & bitSquares[G7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[G7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[G7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[G6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[G6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[G6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[G5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[G5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[G5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[G4])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[G4])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[G4] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[G3])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[G3])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[G3] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[G2])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[G2])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[G2] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[G1])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[G1])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[G1] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case H1:
+	if (board->bitBoards[allAttackingType] & bitSquares[H2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[H3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[H3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[H3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[H4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[H4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[H4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[H5])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[H5])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[H5] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[H6])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[H6])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[H6] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[H7])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[H7])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[H7] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[H8])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[H8])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[H8] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case H2:
+	if (board->bitBoards[allAttackingType] & bitSquares[H3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[H4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[H4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[H4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[H5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[H5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[H5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[H6])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[H6])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[H6] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[H7])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[H7])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[H7] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[H8])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[H8])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[H8] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[H1])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H1])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H1] == no_piece)
+	{
+		}
+			break;
+		case H3:
+	if (board->bitBoards[allAttackingType] & bitSquares[H4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[H5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[H5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[H5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[H6])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[H6])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[H6] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[H7])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[H7])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[H7] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[H8])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[H8])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[H8] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[H2])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H2])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H2] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[H1])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[H1])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[H1] == no_piece)
+		{
+			}
+		}
+			break;
+		case H4:
+	if (board->bitBoards[allAttackingType] & bitSquares[H5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[H6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[H6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[H6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[H7])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[H7])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[H7] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[H8])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[H8])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[H8] == no_piece)
+				{
+					}
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[H3])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H3])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H3] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[H2])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[H2])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[H2] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[H1])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[H1])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[H1] == no_piece)
+			{
+				}
+			}
+		}
+			break;
+		case H5:
+	if (board->bitBoards[allAttackingType] & bitSquares[H6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[H7])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[H7])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[H7] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[H8])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[H8])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[H8] == no_piece)
+			{
+				}
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[H4])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H4])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H4] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[H3])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[H3])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[H3] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[H2])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[H2])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[H2] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[H1])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[H1])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[H1] == no_piece)
+				{
+					}
+				}
+			}
+		}
+			break;
+		case H6:
+	if (board->bitBoards[allAttackingType] & bitSquares[H7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[H8])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[H8])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[H8] == no_piece)
+		{
+			}
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[H5])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H5])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H5] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[H4])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[H4])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[H4] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[H3])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[H3])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[H3] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[H2])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[H2])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[H2] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[H1])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[H1])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[H1] == no_piece)
+					{
+						}
+					}
+				}
+			}
+		}
+			break;
+		case H7:
+	if (board->bitBoards[allAttackingType] & bitSquares[H8])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H8])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H8] == no_piece)
+	{
+		}
+	if (board->bitBoards[allAttackingType] & bitSquares[H6])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H6])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H6] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[H5])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[H5])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[H5] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[H4])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[H4])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[H4] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[H3])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[H3])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[H3] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[H2])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[H2])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[H2] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[H1])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[H1])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[H1] == no_piece)
+						{
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+		case H8:
+	if (board->bitBoards[allAttackingType] & bitSquares[H7])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[H7])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[H7] == no_piece)
+	{
+		if (board->bitBoards[allAttackingType] & bitSquares[H6])
+		{
+			if (attacking_rook_combined_w_queen_bitboard & bitSquares[H6])
+			{
+				return true;
+			}
+		}
+		else if (board->chessBoard[H6] == no_piece)
+		{
+			if (board->bitBoards[allAttackingType] & bitSquares[H5])
+			{
+				if (attacking_rook_combined_w_queen_bitboard & bitSquares[H5])
+				{
+					return true;
+				}
+			}
+			else if (board->chessBoard[H5] == no_piece)
+			{
+				if (board->bitBoards[allAttackingType] & bitSquares[H4])
+				{
+					if (attacking_rook_combined_w_queen_bitboard & bitSquares[H4])
+					{
+						return true;
+					}
+				}
+				else if (board->chessBoard[H4] == no_piece)
+				{
+					if (board->bitBoards[allAttackingType] & bitSquares[H3])
+					{
+						if (attacking_rook_combined_w_queen_bitboard & bitSquares[H3])
+						{
+							return true;
+						}
+					}
+					else if (board->chessBoard[H3] == no_piece)
+					{
+						if (board->bitBoards[allAttackingType] & bitSquares[H2])
+						{
+							if (attacking_rook_combined_w_queen_bitboard & bitSquares[H2])
+							{
+								return true;
+							}
+						}
+						else if (board->chessBoard[H2] == no_piece)
+						{
+							if (board->bitBoards[allAttackingType] & bitSquares[H1])
+							{
+								if (attacking_rook_combined_w_queen_bitboard & bitSquares[H1])
+								{
+									return true;
+								}
+							}
+							else if (board->chessBoard[H1] == no_piece)
+							{
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+			break;
+	}
+	return false;

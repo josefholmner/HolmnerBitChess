@@ -1,0 +1,10 @@
+﻿  Play.c
+Play.c(72): warning C4101: 'fromSquare': unreferenced local variable
+Play.c(72): warning C4101: 'toSquare': unreferenced local variable
+  Generating code
+  1 of 88 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    5 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  HolmnerBitChess.vcxproj -> C:\Users\Josef\documents\visual studio 2015\Projects\HolmnerBitChess\Release\HolmnerBitChess.exe
+  HolmnerBitChess.vcxproj -> C:\Users\Josef\documents\visual studio 2015\Projects\HolmnerBitChess\Release\HolmnerBitChess.pdb (Full PDB)

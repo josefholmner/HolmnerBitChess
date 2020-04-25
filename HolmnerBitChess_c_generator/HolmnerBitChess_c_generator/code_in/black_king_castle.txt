@@ -1,0 +1,14 @@
+		if (board->castlePerm & castle_kk)
+		{
+			if (board->chessBoard[F8] == no_piece && board->chessBoard[G8] == no_piece)
+			{
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, G8, true, no_piece_type, false, no_square);
+			}
+		}
+		if (board->castlePerm & castle_kq)
+		{
+			if (board->chessBoard[B8] == no_piece && board->chessBoard[C8] == no_piece && board->chessBoard[D8] == no_piece)
+			{
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, C8, true, no_piece_type, false, no_square);
+			}
+		}

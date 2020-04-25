@@ -1,0 +1,6 @@
+c:\users\josef\documents\visual studio 2015\Projects\HolmnerBitChess_c_generator\HolmnerBitChess_c_generator\bin\Debug\HolmnerBitChess_c_generator.exe.config
+c:\users\josef\documents\visual studio 2015\Projects\HolmnerBitChess_c_generator\HolmnerBitChess_c_generator\bin\Debug\HolmnerBitChess_c_generator.exe
+c:\users\josef\documents\visual studio 2015\Projects\HolmnerBitChess_c_generator\HolmnerBitChess_c_generator\bin\Debug\HolmnerBitChess_c_generator.pdb
+c:\users\josef\documents\visual studio 2015\Projects\HolmnerBitChess_c_generator\HolmnerBitChess_c_generator\obj\Debug\HolmnerBitChess_c_generator.csprojResolveAssemblyReference.cache
+c:\users\josef\documents\visual studio 2015\Projects\HolmnerBitChess_c_generator\HolmnerBitChess_c_generator\obj\Debug\HolmnerBitChess_c_generator.exe
+c:\users\josef\documents\visual studio 2015\Projects\HolmnerBitChess_c_generator\HolmnerBitChess_c_generator\obj\Debug\HolmnerBitChess_c_generator.pdb

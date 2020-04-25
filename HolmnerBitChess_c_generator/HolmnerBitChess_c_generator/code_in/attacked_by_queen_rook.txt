@@ -1,0 +1,9 @@
+	if (board->bitBoards[allAttackingType] & bitSquares[_sq_])
+	{
+		if (attacking_rook_combined_w_queen_bitboard & bitSquares[_sq_])
+		{
+			return true;
+		}
+	}
+	else if (board->chessBoard[_sq_] == no_piece)
+	{

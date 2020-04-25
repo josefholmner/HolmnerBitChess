@@ -1,0 +1,5 @@
+﻿  Play.c
+c:\users\josef\documents\visual studio 2015\projects\holmnerbitchess\holmnerbitchess\play.c(72): warning C4101: 'fromSquare': unreferenced local variable
+c:\users\josef\documents\visual studio 2015\projects\holmnerbitchess\holmnerbitchess\play.c(72): warning C4101: 'toSquare': unreferenced local variable
+  HolmnerBitChess.vcxproj -> C:\Users\Josef\documents\visual studio 2015\Projects\HolmnerBitChess\Debug\HolmnerBitChess.exe
+  HolmnerBitChess.vcxproj -> C:\Users\Josef\documents\visual studio 2015\Projects\HolmnerBitChess\Debug\HolmnerBitChess.pdb (Full PDB)

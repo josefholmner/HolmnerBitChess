@@ -1,0 +1,195 @@
+	switch(square)
+	{ 
+		case A1:
+			return 0x0002040810204080;
+			break;
+		case A2:
+			return 0x0000020408102040;
+			break;
+		case A3:
+			return 0x0000000204081020;
+			break;
+		case A4:
+			return 0x0000000002040810;
+			break;
+		case A5:
+			return 0x0000000000020408;
+			break;
+		case A6:
+			return 0x0000000000000204;
+			break;
+		case A7:
+			return 0x0000000000000002;
+			break;
+		case A8:
+			return 0x0000000000000000;
+			break;
+		case B1:
+			return 0x0004081020408000;
+			break;
+		case B2:
+			return 0x0100040810204080;
+			break;
+		case B3:
+			return 0x0001000408102040;
+			break;
+		case B4:
+			return 0x0000010004081020;
+			break;
+		case B5:
+			return 0x0000000100040810;
+			break;
+		case B6:
+			return 0x0000000001000408;
+			break;
+		case B7:
+			return 0x0000000000010004;
+			break;
+		case B8:
+			return 0x0000000000000100;
+			break;
+		case C1:
+			return 0x0008102040800000;
+			break;
+		case C2:
+			return 0x0200081020408000;
+			break;
+		case C3:
+			return 0x0102000810204080;
+			break;
+		case C4:
+			return 0x0001020008102040;
+			break;
+		case C5:
+			return 0x0000010200081020;
+			break;
+		case C6:
+			return 0x0000000102000810;
+			break;
+		case C7:
+			return 0x0000000001020008;
+			break;
+		case C8:
+			return 0x0000000000010200;
+			break;
+		case D1:
+			return 0x0010204080000000;
+			break;
+		case D2:
+			return 0x0400102040800000;
+			break;
+		case D3:
+			return 0x0204001020408000;
+			break;
+		case D4:
+			return 0x0102040010204080;
+			break;
+		case D5:
+			return 0x0001020400102040;
+			break;
+		case D6:
+			return 0x0000010204001020;
+			break;
+		case D7:
+			return 0x0000000102040010;
+			break;
+		case D8:
+			return 0x0000000001020400;
+			break;
+		case E1:
+			return 0x0020408000000000;
+			break;
+		case E2:
+			return 0x0800204080000000;
+			break;
+		case E3:
+			return 0x0408002040800000;
+			break;
+		case E4:
+			return 0x0204080020408000;
+			break;
+		case E5:
+			return 0x0102040800204080;
+			break;
+		case E6:
+			return 0x0001020408002040;
+			break;
+		case E7:
+			return 0x0000010204080020;
+			break;
+		case E8:
+			return 0x0000000102040800;
+			break;
+		case F1:
+			return 0x0040800000000000;
+			break;
+		case F2:
+			return 0x1000408000000000;
+			break;
+		case F3:
+			return 0x0810004080000000;
+			break;
+		case F4:
+			return 0x0408100040800000;
+			break;
+		case F5:
+			return 0x0204081000408000;
+			break;
+		case F6:
+			return 0x0102040810004080;
+			break;
+		case F7:
+			return 0x0001020408100040;
+			break;
+		case F8:
+			return 0x0000010204081000;
+			break;
+		case G1:
+			return 0x0080000000000000;
+			break;
+		case G2:
+			return 0x2000800000000000;
+			break;
+		case G3:
+			return 0x1020008000000000;
+			break;
+		case G4:
+			return 0x0810200080000000;
+			break;
+		case G5:
+			return 0x0408102000800000;
+			break;
+		case G6:
+			return 0x0204081020008000;
+			break;
+		case G7:
+			return 0x0102040810200080;
+			break;
+		case G8:
+			return 0x0001020408102000;
+			break;
+		case H1:
+			return 0x0000000000000000;
+			break;
+		case H2:
+			return 0x4000000000000000;
+			break;
+		case H3:
+			return 0x2040000000000000;
+			break;
+		case H4:
+			return 0x1020400000000000;
+			break;
+		case H5:
+			return 0x0810204000000000;
+			break;
+		case H6:
+			return 0x0408102040000000;
+			break;
+		case H7:
+			return 0x0204081020400000;
+			break;
+		case H8:
+			return 0x0102040810204000;
+			break;
+	}

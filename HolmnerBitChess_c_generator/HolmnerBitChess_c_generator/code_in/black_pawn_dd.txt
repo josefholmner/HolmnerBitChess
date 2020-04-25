@@ -1,0 +1,4 @@
+				if (board->chessBoard[_sq_] == no_piece)
+				{
+					addMoveToList(list, board, movePiece, no_piece, fromSquare, _sq_, false, no_piece_type, false, _sq2_);
+				}

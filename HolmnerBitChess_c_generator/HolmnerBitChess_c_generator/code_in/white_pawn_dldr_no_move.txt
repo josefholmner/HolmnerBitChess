@@ -1,0 +1,2 @@
+			if (board->bitBoards[allBlack_type] & bitSquares[_sq_])
+			{

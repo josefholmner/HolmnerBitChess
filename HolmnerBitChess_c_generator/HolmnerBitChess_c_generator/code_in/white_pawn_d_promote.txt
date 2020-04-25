@@ -1,0 +1,4 @@
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, _sq_, false, wQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, _sq_, false, wR_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, _sq_, false, wB_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, _sq_, false, wN_type, false, no_square);

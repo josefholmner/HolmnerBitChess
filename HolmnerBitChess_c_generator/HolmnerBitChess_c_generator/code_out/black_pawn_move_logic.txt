@@ -1,0 +1,925 @@
+	switch(fromSquare)
+	{
+		case A1:
+			break;
+		case A2:
+			if (board->chessBoard[A1] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, A1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, A1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, A1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, A1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B1], fromSquare, B1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[B1], fromSquare, B1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[B1], fromSquare, B1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[B1], fromSquare, B1, false, bN_type, false, no_square);
+			}
+			break;
+		case A3:
+			if (board->chessBoard[A2] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, A2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B2], fromSquare, B2, false, no_piece_type, false, no_square);
+			}
+			break;
+		case A4:
+			if (board->chessBoard[A3] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, A3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B3], fromSquare, B3, false, no_piece_type, false, no_square);
+			}
+			if (board->enPassantSquare != no_square)
+			{
+				if (board->enPassantSquare == B3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[B4], fromSquare, B3, false, no_piece_type, true, no_square);
+				}	
+			}
+			break;
+		case A5:
+			if (board->chessBoard[A4] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, A4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B4], fromSquare, B4, false, no_piece_type, false, no_square);
+			}
+			break;
+		case A6:
+			if (board->chessBoard[A5] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, A5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B5], fromSquare, B5, false, no_piece_type, false, no_square);
+			}
+			break;
+		case A7:
+			if (board->chessBoard[A6] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, A6, false, no_piece_type, false, no_square);
+				if (board->chessBoard[A5] == no_piece)
+				{
+					addMoveToList(list, board, movePiece, no_piece, fromSquare, A5, false, no_piece_type, false, A6);
+				}
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B6], fromSquare, B6, false, no_piece_type, false, no_square);
+			}
+			break;
+		case A8:
+			if (board->chessBoard[A7] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, A7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B7], fromSquare, B7, false, no_piece_type, false, no_square);
+			}
+			break;
+		case B1:
+			break;
+		case B2:
+			if (board->chessBoard[B1] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, B1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, B1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, B1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, B1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[A1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[A1], fromSquare, A1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[A1], fromSquare, A1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[A1], fromSquare, A1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[A1], fromSquare, A1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C1], fromSquare, C1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[C1], fromSquare, C1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[C1], fromSquare, C1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[C1], fromSquare, C1, false, bN_type, false, no_square);
+			}
+			break;
+		case B3:
+			if (board->chessBoard[B2] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, B2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[A2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[A2], fromSquare, A2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C2], fromSquare, C2, false, no_piece_type, false, no_square);
+			}
+			break;
+		case B4:
+			if (board->chessBoard[B3] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, B3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[A3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[A3], fromSquare, A3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C3], fromSquare, C3, false, no_piece_type, false, no_square);
+			}
+			if (board->enPassantSquare != no_square)
+			{
+				if (board->enPassantSquare == A3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[A4], fromSquare, A3, false, no_piece_type, true, no_square);
+				}	
+				else if (board->enPassantSquare == C3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[C4], fromSquare, C3, false, no_piece_type, true, no_square);
+				}	
+			}
+			break;
+		case B5:
+			if (board->chessBoard[B4] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, B4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[A4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[A4], fromSquare, A4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C4], fromSquare, C4, false, no_piece_type, false, no_square);
+			}
+			break;
+		case B6:
+			if (board->chessBoard[B5] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, B5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[A5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[A5], fromSquare, A5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C5], fromSquare, C5, false, no_piece_type, false, no_square);
+			}
+			break;
+		case B7:
+			if (board->chessBoard[B6] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, B6, false, no_piece_type, false, no_square);
+				if (board->chessBoard[B5] == no_piece)
+				{
+					addMoveToList(list, board, movePiece, no_piece, fromSquare, B5, false, no_piece_type, false, B6);
+				}
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[A6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[A6], fromSquare, A6, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C6], fromSquare, C6, false, no_piece_type, false, no_square);
+			}
+			break;
+		case B8:
+			if (board->chessBoard[B7] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, B7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[A7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[A7], fromSquare, A7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C7], fromSquare, C7, false, no_piece_type, false, no_square);
+			}
+			break;
+		case C1:
+			break;
+		case C2:
+			if (board->chessBoard[C1] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, C1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, C1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, C1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, C1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B1], fromSquare, B1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[B1], fromSquare, B1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[B1], fromSquare, B1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[B1], fromSquare, B1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D1], fromSquare, D1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[D1], fromSquare, D1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[D1], fromSquare, D1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[D1], fromSquare, D1, false, bN_type, false, no_square);
+			}
+			break;
+		case C3:
+			if (board->chessBoard[C2] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, C2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B2], fromSquare, B2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D2], fromSquare, D2, false, no_piece_type, false, no_square);
+			}
+			break;
+		case C4:
+			if (board->chessBoard[C3] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, C3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B3], fromSquare, B3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D3], fromSquare, D3, false, no_piece_type, false, no_square);
+			}
+			if (board->enPassantSquare != no_square)
+			{
+				if (board->enPassantSquare == B3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[B4], fromSquare, B3, false, no_piece_type, true, no_square);
+				}	
+				else if (board->enPassantSquare == D3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[D4], fromSquare, D3, false, no_piece_type, true, no_square);
+				}	
+			}
+			break;
+		case C5:
+			if (board->chessBoard[C4] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, C4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B4], fromSquare, B4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D4], fromSquare, D4, false, no_piece_type, false, no_square);
+			}
+			break;
+		case C6:
+			if (board->chessBoard[C5] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, C5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B5], fromSquare, B5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D5], fromSquare, D5, false, no_piece_type, false, no_square);
+			}
+			break;
+		case C7:
+			if (board->chessBoard[C6] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, C6, false, no_piece_type, false, no_square);
+				if (board->chessBoard[C5] == no_piece)
+				{
+					addMoveToList(list, board, movePiece, no_piece, fromSquare, C5, false, no_piece_type, false, C6);
+				}
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B6], fromSquare, B6, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D6], fromSquare, D6, false, no_piece_type, false, no_square);
+			}
+			break;
+		case C8:
+			if (board->chessBoard[C7] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, C7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[B7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[B7], fromSquare, B7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D7], fromSquare, D7, false, no_piece_type, false, no_square);
+			}
+			break;
+		case D1:
+			break;
+		case D2:
+			if (board->chessBoard[D1] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, D1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, D1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, D1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, D1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C1], fromSquare, C1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[C1], fromSquare, C1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[C1], fromSquare, C1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[C1], fromSquare, C1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E1], fromSquare, E1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[E1], fromSquare, E1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[E1], fromSquare, E1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[E1], fromSquare, E1, false, bN_type, false, no_square);
+			}
+			break;
+		case D3:
+			if (board->chessBoard[D2] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, D2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C2], fromSquare, C2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E2], fromSquare, E2, false, no_piece_type, false, no_square);
+			}
+			break;
+		case D4:
+			if (board->chessBoard[D3] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, D3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C3], fromSquare, C3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E3], fromSquare, E3, false, no_piece_type, false, no_square);
+			}
+			if (board->enPassantSquare != no_square)
+			{
+				if (board->enPassantSquare == C3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[C4], fromSquare, C3, false, no_piece_type, true, no_square);
+				}	
+				else if (board->enPassantSquare == E3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[E4], fromSquare, E3, false, no_piece_type, true, no_square);
+				}	
+			}
+			break;
+		case D5:
+			if (board->chessBoard[D4] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, D4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C4], fromSquare, C4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E4], fromSquare, E4, false, no_piece_type, false, no_square);
+			}
+			break;
+		case D6:
+			if (board->chessBoard[D5] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, D5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C5], fromSquare, C5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E5], fromSquare, E5, false, no_piece_type, false, no_square);
+			}
+			break;
+		case D7:
+			if (board->chessBoard[D6] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, D6, false, no_piece_type, false, no_square);
+				if (board->chessBoard[D5] == no_piece)
+				{
+					addMoveToList(list, board, movePiece, no_piece, fromSquare, D5, false, no_piece_type, false, D6);
+				}
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C6], fromSquare, C6, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E6], fromSquare, E6, false, no_piece_type, false, no_square);
+			}
+			break;
+		case D8:
+			if (board->chessBoard[D7] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, D7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[C7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[C7], fromSquare, C7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E7], fromSquare, E7, false, no_piece_type, false, no_square);
+			}
+			break;
+		case E1:
+			break;
+		case E2:
+			if (board->chessBoard[E1] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, E1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, E1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, E1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, E1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D1], fromSquare, D1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[D1], fromSquare, D1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[D1], fromSquare, D1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[D1], fromSquare, D1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F1], fromSquare, F1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[F1], fromSquare, F1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[F1], fromSquare, F1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[F1], fromSquare, F1, false, bN_type, false, no_square);
+			}
+			break;
+		case E3:
+			if (board->chessBoard[E2] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, E2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D2], fromSquare, D2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F2], fromSquare, F2, false, no_piece_type, false, no_square);
+			}
+			break;
+		case E4:
+			if (board->chessBoard[E3] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, E3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D3], fromSquare, D3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F3], fromSquare, F3, false, no_piece_type, false, no_square);
+			}
+			if (board->enPassantSquare != no_square)
+			{
+				if (board->enPassantSquare == D3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[D4], fromSquare, D3, false, no_piece_type, true, no_square);
+				}	
+				else if (board->enPassantSquare == F3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[F4], fromSquare, F3, false, no_piece_type, true, no_square);
+				}	
+			}
+			break;
+		case E5:
+			if (board->chessBoard[E4] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, E4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D4], fromSquare, D4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F4], fromSquare, F4, false, no_piece_type, false, no_square);
+			}
+			break;
+		case E6:
+			if (board->chessBoard[E5] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, E5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D5], fromSquare, D5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F5], fromSquare, F5, false, no_piece_type, false, no_square);
+			}
+			break;
+		case E7:
+			if (board->chessBoard[E6] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, E6, false, no_piece_type, false, no_square);
+				if (board->chessBoard[E5] == no_piece)
+				{
+					addMoveToList(list, board, movePiece, no_piece, fromSquare, E5, false, no_piece_type, false, E6);
+				}
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D6], fromSquare, D6, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F6], fromSquare, F6, false, no_piece_type, false, no_square);
+			}
+			break;
+		case E8:
+			if (board->chessBoard[E7] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, E7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[D7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[D7], fromSquare, D7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F7], fromSquare, F7, false, no_piece_type, false, no_square);
+			}
+			break;
+		case F1:
+			break;
+		case F2:
+			if (board->chessBoard[F1] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, F1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, F1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, F1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, F1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E1], fromSquare, E1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[E1], fromSquare, E1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[E1], fromSquare, E1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[E1], fromSquare, E1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G1], fromSquare, G1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[G1], fromSquare, G1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[G1], fromSquare, G1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[G1], fromSquare, G1, false, bN_type, false, no_square);
+			}
+			break;
+		case F3:
+			if (board->chessBoard[F2] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, F2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E2], fromSquare, E2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G2], fromSquare, G2, false, no_piece_type, false, no_square);
+			}
+			break;
+		case F4:
+			if (board->chessBoard[F3] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, F3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E3], fromSquare, E3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G3], fromSquare, G3, false, no_piece_type, false, no_square);
+			}
+			if (board->enPassantSquare != no_square)
+			{
+				if (board->enPassantSquare == E3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[E4], fromSquare, E3, false, no_piece_type, true, no_square);
+				}	
+				else if (board->enPassantSquare == G3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[G4], fromSquare, G3, false, no_piece_type, true, no_square);
+				}	
+			}
+			break;
+		case F5:
+			if (board->chessBoard[F4] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, F4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E4], fromSquare, E4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G4], fromSquare, G4, false, no_piece_type, false, no_square);
+			}
+			break;
+		case F6:
+			if (board->chessBoard[F5] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, F5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E5], fromSquare, E5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G5], fromSquare, G5, false, no_piece_type, false, no_square);
+			}
+			break;
+		case F7:
+			if (board->chessBoard[F6] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, F6, false, no_piece_type, false, no_square);
+				if (board->chessBoard[F5] == no_piece)
+				{
+					addMoveToList(list, board, movePiece, no_piece, fromSquare, F5, false, no_piece_type, false, F6);
+				}
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E6], fromSquare, E6, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G6], fromSquare, G6, false, no_piece_type, false, no_square);
+			}
+			break;
+		case F8:
+			if (board->chessBoard[F7] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, F7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[E7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[E7], fromSquare, E7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G7], fromSquare, G7, false, no_piece_type, false, no_square);
+			}
+			break;
+		case G1:
+			break;
+		case G2:
+			if (board->chessBoard[G1] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, G1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, G1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, G1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, G1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F1], fromSquare, F1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[F1], fromSquare, F1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[F1], fromSquare, F1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[F1], fromSquare, F1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[H1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[H1], fromSquare, H1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[H1], fromSquare, H1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[H1], fromSquare, H1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[H1], fromSquare, H1, false, bN_type, false, no_square);
+			}
+			break;
+		case G3:
+			if (board->chessBoard[G2] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, G2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F2], fromSquare, F2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[H2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[H2], fromSquare, H2, false, no_piece_type, false, no_square);
+			}
+			break;
+		case G4:
+			if (board->chessBoard[G3] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, G3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F3], fromSquare, F3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[H3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[H3], fromSquare, H3, false, no_piece_type, false, no_square);
+			}
+			if (board->enPassantSquare != no_square)
+			{
+				if (board->enPassantSquare == F3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[F4], fromSquare, F3, false, no_piece_type, true, no_square);
+				}	
+				else if (board->enPassantSquare == H3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[H4], fromSquare, H3, false, no_piece_type, true, no_square);
+				}	
+			}
+			break;
+		case G5:
+			if (board->chessBoard[G4] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, G4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F4], fromSquare, F4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[H4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[H4], fromSquare, H4, false, no_piece_type, false, no_square);
+			}
+			break;
+		case G6:
+			if (board->chessBoard[G5] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, G5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F5], fromSquare, F5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[H5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[H5], fromSquare, H5, false, no_piece_type, false, no_square);
+			}
+			break;
+		case G7:
+			if (board->chessBoard[G6] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, G6, false, no_piece_type, false, no_square);
+				if (board->chessBoard[G5] == no_piece)
+				{
+					addMoveToList(list, board, movePiece, no_piece, fromSquare, G5, false, no_piece_type, false, G6);
+				}
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F6], fromSquare, F6, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[H6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[H6], fromSquare, H6, false, no_piece_type, false, no_square);
+			}
+			break;
+		case G8:
+			if (board->chessBoard[G7] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, G7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[F7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[F7], fromSquare, F7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[H7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[H7], fromSquare, H7, false, no_piece_type, false, no_square);
+			}
+			break;
+		case H1:
+			break;
+		case H2:
+			if (board->chessBoard[H1] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, H1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, H1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, H1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, H1, false, bN_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G1])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G1], fromSquare, G1, false, bQ_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[G1], fromSquare, G1, false, bR_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[G1], fromSquare, G1, false, bB_type, false, no_square);
+				addMoveToList(list, board, movePiece, board->chessBoard[G1], fromSquare, G1, false, bN_type, false, no_square);
+			}
+			break;
+		case H3:
+			if (board->chessBoard[H2] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, H2, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G2])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G2], fromSquare, G2, false, no_piece_type, false, no_square);
+			}
+			break;
+		case H4:
+			if (board->chessBoard[H3] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, H3, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G3])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G3], fromSquare, G3, false, no_piece_type, false, no_square);
+			}
+			if (board->enPassantSquare != no_square)
+			{
+				if (board->enPassantSquare == G3)
+				{
+					addMoveToList(list, board, movePiece, board->chessBoard[G4], fromSquare, G3, false, no_piece_type, true, no_square);
+				}	
+			}
+			break;
+		case H5:
+			if (board->chessBoard[H4] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, H4, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G4])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G4], fromSquare, G4, false, no_piece_type, false, no_square);
+			}
+			break;
+		case H6:
+			if (board->chessBoard[H5] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, H5, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G5])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G5], fromSquare, G5, false, no_piece_type, false, no_square);
+			}
+			break;
+		case H7:
+			if (board->chessBoard[H6] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, H6, false, no_piece_type, false, no_square);
+				if (board->chessBoard[H5] == no_piece)
+				{
+					addMoveToList(list, board, movePiece, no_piece, fromSquare, H5, false, no_piece_type, false, H6);
+				}
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G6])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G6], fromSquare, G6, false, no_piece_type, false, no_square);
+			}
+			break;
+		case H8:
+			if (board->chessBoard[H7] == no_piece)
+			{		
+				addMoveToList(list, board, movePiece, no_piece, fromSquare, H7, false, no_piece_type, false, no_square);
+			}
+			if (board->bitBoards[allWhite_type] & bitSquares[G7])
+			{
+				addMoveToList(list, board, movePiece, board->chessBoard[G7], fromSquare, G7, false, no_piece_type, false, no_square);
+			}
+			break;
+	}
